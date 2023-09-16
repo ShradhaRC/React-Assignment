@@ -1,0 +1,36 @@
+.lne-chrt.container .Target-root.css-4dretl {
+    height: 400px !important;
+    background: #383434;
+}
+.lne-chrt.container g.Target-root.css-1jl7gxi .css-17zcy27.Target-root {
+    fill: rgb(255 255 255) !important;
+}
+.lne-chrt.container .css-12vmndj.Target-root {
+    stroke: rgb(116 108 108) !important;
+}
+/* Linechart */
+.blw-lnechrt .dflex.boxshadow.container {
+    display: block;
+    margin: 0;
+}
+.blw-lnechrt .dflex.boxshadow.container .lnechrt1.row {
+    margin: 0 0 40px 0px;
+}
+
+.blw-lnechrt .dflex.boxshadow.container {
+    background: #383434;
+    border-radius: 8px;
+}
+.blw-lnechrt h4 {
+    color: #fff;
+}
+.blw-lnechrt h6 {
+    color: #a79d9d;
+}
+
+.lne-chrt.container {
+    padding: 0px;
+}
+.value{
+    color: #fff;
+}

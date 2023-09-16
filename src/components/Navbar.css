@@ -1,0 +1,47 @@
+.dflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aligncenter{
+    align-items:center;
+}
+.row{
+    width: 100%;
+    margin:15px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px 25px;
+}
+.content h2{
+    margin: 5px;
+    color: #fff;
+}
+.content p{
+    margin: 1px;
+    color: #fff;
+    font-size: 84%;
+}
+
+.btn{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.dflex.navbar.col-12 .col-8 .content {
+    margin-left: -120px;
+    font-size: 14px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}

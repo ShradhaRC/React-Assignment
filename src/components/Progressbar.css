@@ -1,0 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+} */
+.progressbar{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #383434;
+    /* margin: 0 15px; */
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.title-text{
+    text-align: left;
+    background-color: #383434;
+    color: #fff;
+    font-weight: 400;
+    /* border-radius: 50px; */
+    margin-top: 15px;
+    margin-bottom: 10%;
+
+}
+.progressbar .first-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.first-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(220, 238, 238);
+}
+.first-box .first-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgb(40, 56, 56);
+}
+.first-box .first-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background-color: aqua;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+.first-per .pro1{
+    width: 95%;
+    animation-delay: 0.1s;
+}
+.first-per .pro2{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.first-per .pro3{
+    width: 40%;
+    animation-delay: 0.3s;
+}
+.first-per .pro4{
+    width: 70%;
+    animation-delay: 0.4s;
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.first-per .persent{
+    position: absolute;
+    right: -14px;
+    top: -28%;
+    font-size: 9px;
+    font-weight: 500;
+    color: beige;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: rgb(135, 103, 209);
+    z-index: 1;
+}

@@ -1,0 +1,51 @@
+.righttop{
+    padding-left: 0px;
+}
+.righttop h4{
+    color: aliceblue;
+}
+.button-top{
+    color: rgb(233, 218, 218);
+    border-radius: 25px;
+    background-color: #e7d31e;
+    border-color: #e7d31e;
+}
+.righttoprw2.row {
+    margin: 10px 0px 25px 0;
+}
+.righttopcol2.col .righttoprw1.row {
+    margin: 0px 0px 10px 55px;
+}
+.righttoprw1.row button.button-top.btn.btn-primary {
+    color: #000;
+    background-color: #ed8f03;
+    border-color: #ed8f03;
+    border-radius: 10px;
+    padding: 2px 30px;
+}
+.righttoprw1.row button.button1.btn.btn-primary {
+    background: #383434;
+    border-color: #fff;
+    color: #eee;
+    padding: 2px 21px;
+    border-radius: 10px;
+    margin-left: -12px;
+}
+.righttoprw3.row .righttopcol33.col h2, .righttoprw3.row .righttopcol32.col h2, .righttoprw3.row .righttopcol31.col h2 {
+    font-size: 16px;
+    color: #ed8f03;
+    margin-left: 45px;
+}
+.righttoprw3.row h6 {
+    font-size: 18px;
+    margin: 0 0px 0px 0px;
+}
+.righttoprw3.row h6 svg.MuiSvgIcon-root-1 {
+    margin: 0 20px 0px 0px;
+}
+.righttop {
+    padding-left: 0px;
+    background: #383434;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+}

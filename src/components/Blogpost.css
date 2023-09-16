@@ -1,0 +1,28 @@
+.blog-item img{
+    height: 177px;
+}
+.heading{
+    text-align: left;
+    margin-left: -21px;
+}
+/* .button1{
+    color: black;
+    background-color: yellow;
+} */
+.yellow{
+    color: rgb(44, 28, 28);
+    border-radius: 50px;
+    background-color: #e7d31e;
+    border-color:  #e7d31e;
+}
+.blog-item h3 {
+    font-size: 20px;
+    margin: 0 0px 10px 2px;
+}
+ul.react-multi-carousel-track li {
+    width: 265px;
+}
+.blog-container {
+    background: #383434;
+    padding: 15px 15px;
+}

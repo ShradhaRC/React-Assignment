@@ -1,0 +1,56 @@
+
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  
+  
+   background-color:rgb(17, 17, 24);
+}
+.column {
+  float: left;
+  
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 75%;
+}
+
+.dflex{
+  display: flex;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,p,button,li{
+  color: #fff;
+}
+.MuiDataGrid-footerContainer p{
+  margin: 0 !important;
+
+}
+.MuiDataGrid-footerContainer{
+  color: #fff;
+}
+.MuiTablePagination-select,.MuiSvgIcon-root {
+  color: #fff !important;
+}
+ul{
+  list-style-type: none;
+    padding: 0px;
+}
+
+.top-hdng.container .hdr1.row svg.jss1 {
+  color: red;
+}
